@@ -1,0 +1,194 @@
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #333;
+}
+body {
+	background:url('../img/bg.jpg') fixed center;
+  background-size:cover;
+  height:auto;
+	margin:0em;
+}
+br {
+   display: block;
+   line-height:1px;
+}
+a {
+	font-size: 16px;
+	color: #39566f;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #39566f;
+}
+a:hover {
+	text-decoration: bold;
+	color: #999966;
+}
+a:active {
+	text-decoration: none;
+	color: #03F;
+}
+div {
+    border-radius: 0px;
+}
+
+#banner {
+    background-color:#383a42;
+    height:15em;
+	width:100%;
+	top:0;
+
+	margin-bottom:1em;
+}
+
+#bannerInner {
+    height:9em;
+}
+
+#logo {
+    height:1em;
+    text-align:left;
+    text-indent:1em;
+}
+
+#logo h1 {
+    margin-top:1em;
+    margin-bottom:0;
+    color: #CCCC33;
+    font-size:30px;
+}
+
+#logo h4 {
+    color: #CCCCCC;
+    font-size:20px;
+  margin-top:0;
+    margin-left:1em;
+}
+
+#content{
+  height:auto;
+  min-height:100%;
+
+}
+
+#panel{
+	background:#FFFFFF;
+	height:100%;
+  min-height:1000px;
+	padding-top:.25em;
+  border-radius: 5px;
+}
+
+#panelCV{
+	background:#FFFFFF;
+	padding-top:.25em;
+}
+
+.text {
+    text-align:left;
+    padding:1em;
+}
+
+.uLine{
+	border-bottom:.1em solid grey;
+}
+
+.tab {
+	padding-left:2em;
+}
+
+.print{
+	line-height:.5em;
+}
+
+.spacer{
+	margin-top:1em;
+	margin-bottom:1em;
+}
+
+table td{
+	vertical-align:top;
+}
+
+iframe{
+    border-radius: 5px;
+  width:100%;
+  background-color:white;
+}
+
+iframe.resume{
+  height:100%;
+  min-height: 1200px;
+}
+
+.frameHolder{
+	height:100%;
+	width:100%;
+}
+
+#webOverlaycontent{
+	visibility:hidden;
+
+}
+
+.close {
+    background-image:url(/style/img/close.png);
+    position:absolute; right:-3%; top:-4%;
+    cursor:pointer;
+    height:35px;
+    width:35px;
+}
+
+#webOverlay {
+	display:none;
+	height:90%;
+	width:90%;
+	left:auto;
+	right:auto;
+}
+
+#hDocOverlay {
+	display:none;
+	height:auto;
+	width:auto;
+    min-width:700px;
+	left:auto;
+	right:auto;
+    text-align:center;
+    top:5ex;
+}
+
+#footer {
+	border:none;
+  color: white;
+	background-color: #383a42;
+    height:25px;
+	margin-top:1em;
+}
+#footer h3 {
+  font-size:12px;
+  margin:0;
+}
+
+#footer h3.sig{ color:CCCC33 }
+
+#mainWrapper{
+	background:rgb(56,56,66);
+    background:rgba(56,56,66,.85);
+	height:auto;
+	min-height:100%;
+}
+
+.active > a{
+  background-image: url('../img/Blinking_text_input2.gif');
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 15px 20px;
+}
+
+
+
