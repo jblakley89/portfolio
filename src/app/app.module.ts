@@ -1,36 +1,32 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
-import { ModalModule } from 'ngx-bootstrap';
-
+import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavigationComponent } from './navigation/navigation.component';
 import { HomeComponent } from './home/home.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 import { ResumeComponent } from './resume/resume.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
-
-const appRoutes: Routes = [
-  { path: '', redirectTo: '/Home', pathMatch: 'full' },
-  { path: 'Home', component: HomeComponent },
-  { path: 'Resume', component: ResumeComponent },
-  { path: 'Portfolio', component: PortfolioComponent }
-]
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavigationComponent,
     HomeComponent,
+    HeaderComponent,
+    FooterComponent,
     ResumeComponent,
     PortfolioComponent
   ],
   imports: [
-    RouterModule.forRoot(appRoutes),
     BrowserModule,
-    ModalModule.forRoot()
+    AppRoutingModule,
+    NgbModule
   ],
-  providers: [],
+  providers: [
+
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
