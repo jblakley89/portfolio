@@ -1,0 +1,27 @@
+.contentSticky {
+  position: absolute;
+  bottom: 25px;
+  left: 0px;
+  right: 0px;
+  top: 142px;
+
+  @media(max-height: 1200px){
+    position: initial;
+    height: auto;
+    min-height: 900px;
+    top: unset;
+    bottom: unset;
+  }
+}
+
+.container.content{
+  background:#FFFFFF;
+  padding-top: 1em;
+  height: 100%;
+
+  @media(max-height: 1200px){
+    height: auto;
+    min-height: 900px;
+  }
+}
+

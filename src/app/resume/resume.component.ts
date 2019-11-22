@@ -5,5 +5,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./resume.component.less']
 })
 export class ResumeComponent {
-
 }

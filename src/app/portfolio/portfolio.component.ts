@@ -5,7 +5,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./portfolio.component.less']
 })
 export class PortfolioComponent {
-
-    showCisco() {
-    }
 }

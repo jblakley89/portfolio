@@ -2,8 +2,32 @@ iframe.resume {
   height:980px;
   width:800px;
   border: solid 1px darkgray;
+
+  @media(max-width: 990px){
+    width: 700px;
+    position: relative;
+    left: -5px;
+  }
+  @media(max-width: 766px){
+    width: 600px;
+    position: relative;
+    left: -50px;
+    border: none;
+  }
+  @media(max-width: 500px){
+    position: relative;
+    left: -50px;
+    border: none;
+    -ms-zoom: 0.75;
+    -moz-transform: scale(0.75);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(0.75);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(0.75);
+    -webkit-transform-origin: 0 0;
+  }
 }
 
-.scroll {
-  overflow:auto;
+.no-scroll {
+  overflow:hidden;
 }
