@@ -25,3 +25,11 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+## Using Docker
+Initializing the docker image is as easy as executing `docker-compose build`. Once that is done, serving the website locally can be done with `docker-compose up`.
+
+# Building for release
+- Delete the `dist` folder so that the containers output will persist on the host
+- run `docker-compose run web ng build --prod`
